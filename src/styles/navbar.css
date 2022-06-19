@@ -1,0 +1,19 @@
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.logo {
+  width: 4rem;
+}
+
+.navbar-links {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links-item {
+  margin: 0;
+  padding: 1em;
+  display: inline-block;
+}

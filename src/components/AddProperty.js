@@ -122,7 +122,9 @@ const AddProperty = () => {
           />
         </label>
 
-        <button type="submit">Add</button>
+        <button className="submit-btn" type="submit">
+          Add
+        </button>
       </form>
     </div>
   );

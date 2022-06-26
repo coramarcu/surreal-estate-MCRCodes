@@ -1,19 +1,42 @@
 .navbar {
   background-color: #fff;
   border-bottom: 1px solid #dcdcdc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
 }
 
 .logo {
-  width: 4rem;
+  width: 3rem;
 }
 
 .navbar-links {
   margin: 0;
   padding: 0;
+  display: inline-block;
 }
 
 .navbar-links-item {
   margin: 0;
   padding: 1em;
   display: inline-block;
+  color: hotpink;
+}
+
+.navbar-links-item:hover,
+.navbar-links-item:focus {
+  color: magenta;
+}
+
+.navbar-links-item a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: smaller;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+}
+
+.navbar-links-item a:visited {
+  color: blueviolet;
 }
